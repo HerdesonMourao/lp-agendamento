@@ -32,7 +32,7 @@ const plans = [
         <ul class="text-left mb-4 list-disc pl-5 text-sm">
           <li v-for="(feature, i) in plan.features" :key="i">{{ feature }}</li>
         </ul>
-        <button class="bg-blue-600 text-white px-4 py-2 rounded">
+        <button class="bg-blue-600 hover:bg-blue-800 focus:outline-2 focus:outline-offset-2 focus:outline-blue-600 text-white px-4 py-2 rounded">
           Comprar
         </button>
       </div>

@@ -6,7 +6,7 @@
     <p class="text-lg mb-6">
       Sistema simples, rápido e feito para seu consultório
     </p>
-    <button class="bg-blue-600 text-white px-6 py-3 rounded-lg">
+    <button class="bg-blue-600 hover:bg-blue-800 focus:outline-2 focus:outline-offset-2 focus:outline-blue-600 text-white px-6 py-3 rounded-lg">
       Comece agora
     </button>
   </section>
