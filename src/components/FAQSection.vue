@@ -16,16 +16,16 @@ const faq = [
 </script>
 
 <template>
-  <section class="py-16 bg-white max-w-4xl mx-auto">
+  <section class="py-16 bg-white max-w-4xl mx-auto px-4">
     <h3 class="text-2xl font-semibold text-center mb-8">
       Perguntas Frequentes
     </h3>
-    <div v-for="(item, index) in faq" :key="index" class="border-b py-4">
-      <details>
+    <div v-for="(item, index) in faq" :key="index" class="border-b">
+      <details class="py-4">
         <summary class="font-medium cursor-pointer">
           {{ item.question }}
         </summary>
-        <p class="mt-2 text-sm">{{ item.answer }}</p>
+        <p class="mt-2 text-sm pl-6 text-gray-700">{{ item.answer }}</p>
       </details>
     </div>
   </section>

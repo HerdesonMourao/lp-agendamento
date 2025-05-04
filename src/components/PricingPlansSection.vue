@@ -25,7 +25,7 @@ const plans = [
 <template>
   <section class="py-16 bg-gray-100 text-center">
     <h3 class="text-2xl font-semibold mb-10">Escolha seu plano</h3>
-    <div class="flex flex-col md:flex-row gap-6 justify-center">
+    <div class="flex flex-col items-center md:flex-row gap-6 justify-center">
       <div v-for="(plan, index) in plans" :key="index" class="border rounded-lg p-6 shadow max-w-xs w-full">
         <h4 class="text-xl font-bold mb-2">{{ plan.name }}</h4>
         <p class="text-3xl font-bold text-blue-600 mb-4">{{ plan.price }}</p>
